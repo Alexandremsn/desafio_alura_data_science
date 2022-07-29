@@ -3,26 +3,26 @@ e na sequência importamos a base de dados que vamos usar
 
 <img src="images/001.png">
 
-Abaixo podemos ver o estado inicial do arquivo, ele continha diversos níveis de dicionários com especificações dos dados de cada coluna, primeiramente precisavamos desenpacotar estas informações
+Abaixo podemos ver o estado inicial do arquivo, ele continha diversos níveis de dicionários com especificações dos dados de cada coluna, primeiramente precisávamos desempacotar estas informações
 
 <img src="images/002.png">
 
-usando o método nomalize, podemos desempacotar as informações e exporta-las em colunas individuais, como podemos ver na imagem abaixo, o mesmo método foi aplicado em todas as colunas que possuiam esta mesma característica.
+usando o método nomalize, podemos desempacotar as informações e exportá-las em colunas individuais, como podemos ver na imagem abaixo, o mesmo método foi aplicado em todas as colunas que possuíam esta mesma característica.
 
 <img src="images/003.png">
-depois cada parte desenpacotada foi adicionada a base principal e as colunas mãe forma excluidas, ficando com um apécto melhor como podemos observar na imagem abaixo.
+depois cada parte desempacotada foi adicionada a base principal e as colunas mãe forma excluídas, ficando com um aspecto melhor como podemos observar na imagem abaixo.
 
 <img src="images/004.png">
-Começamos a etapa de procurar por inconsitêcnias de dados, não localizamos valores vazios, tipo NaN ou Null.
-depois verificamos que tinhamos ao invez de valores vazios ' ' simplesmente um espaço como valor. como podemos ver na imagem abaixo.
+Começamos a etapa de procurar por inconsistências de dados, não localizamos valores vazios, tipo NaN ou Null.
+depois verificamos que tínhamos ao invés de valores vazios ' ' simplesmente um espaço como valor. como podemos ver na imagem abaixo.
 
 <img src="images/005.png">
  
- continuamos verificando valores e na coluna Senior, encontramos 0 e 1 ao invez de yes e no então corrigimos padronizando a base.
+ continuamos verificando valores e na coluna Senior, encontramos 0 e 1 em vez de yes e no então corrigimos padronizando a base.
 
 <img src="images/006.png">
 
- fizemos algumas checagens para verificar nas colunas com valores numéricos valores descrepantes ou negativos.
+ fizemos algumas checagens para verificar nas colunas com valores numéricos valores discrepantes ou negativos.
  mas não encontramos valores deste tipo.
 
 <img src="images/007.png">
@@ -39,9 +39,9 @@ realizamos a tradução dos rótulos das colunas
 
 <img src="images/010.png">
 
-depois criamos a varíavel de gasto diário
+depois criamos a variável de gasto diário
 
 <img src="images/011.png">
 
-reordenadmos as colunas para que ficasse com a gradação gasto diario, mensal, total,
+reordenamos as colunas para que ficasse com a gradação gasto diário, mensal, total,
 depois exportamos a base para ser usada futuramente.
