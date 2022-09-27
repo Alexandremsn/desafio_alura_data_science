@@ -1,5 +1,5 @@
 <div align="center">
-<img src="images/logo.jpg">
+<img src="images/clipart571406.png" width=100>
 
 # Desafio Alura Data Science Semana 1 Limpeza de dados
 <div align="left">
