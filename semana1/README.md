@@ -1,3 +1,31 @@
+<div align="center">
+<img src="images/logo.jpg">
+
+# Desafio Alura Data Science Semana 1 Limpeza de dados
+<div align="left">
+Limpeza de uma base de dados e exportação para arquivo .csv para realizar análises e plotagens na semana seguinte.
+
+## Tecnologia
+
+O software  usado neste projeto foi:
+
+* Python version  3.9.5
+
+## Serviços Usados
+
+* Github
+
+
+## Bibliotecas Python
+
+* Pandas
+
+
+## Como foi feito
+
+Será descrito abaixo através de textos e imagens.
+
+
 Recebemos para este desfio uma base de dados em json, começamos importando a biblioteca pandas que vamos usar nesta limpeza
 e na sequência importamos a base de dados que vamos usar
 
@@ -45,3 +73,28 @@ Depois criamos a variável de gasto diário
 
 Reordenamos as colunas para que ficasse com a gradação gasto diário, mensal, total,
 depois exportamos a base para ser usada futuramente.
+
+
+
+## Recursos Usados
+
+  - Importação de Database
+  - Limpeza de dados
+  - Criação de arquivo .csv
+  
+
+## Links
+
+  - Repositório: https://github.com/Alexandremsn/desafio_alura_data_science/
+  - Se for encontrado um bug, favor entrar em contato alexandremsneto1986@gmail.com
+
+
+## Versioning
+
+1.0.0.0
+
+
+## Autor
+
+* **Alexandre Machado da Silva Neto**: @alexandremsn (https://github.com/alexandremsn)
+
