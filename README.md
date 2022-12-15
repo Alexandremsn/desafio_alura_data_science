@@ -9,9 +9,13 @@ o trabalho foi concluído mas a documentação ainda está em desenvolvimento, a
 
 # Desafio Alura Data Science Semana 1 Limpeza de dados
 <div align="left">
-Limpeza de uma base de dados e exportação para arquivo .csv para realizar análises e plotagens na semana seguinte.D
+Limpeza de uma base de dados e exportação para arquivo .csv para realizar análises e plotagens na semana seguinte.
 
 # Desafio Alura Data Science Semana 2 Análise exploratória dos dados
 
+readme em desenvolvimento
 
 # Desafio Alura Data Science Semanas 3 e 4 Construindo modelo preditivo
+
+
+readme em desenvolvimento
