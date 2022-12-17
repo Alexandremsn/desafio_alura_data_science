@@ -1,7 +1,7 @@
 <div align="center">
-<img src="images/clipart571406.png" width=100>
+<img src="images/pngwing.com.png" width=200>
 
-# Desafio Alura Data Science Semana 1 Limpeza de dados
+# Desafio Alura Data Science Semana 2 Análise Exploratória dos Dados
 <div align="left">
 Limpeza de uma base de dados e exportação para arquivo .csv para realizar análises e plotagens na semana seguinte.
 
