@@ -32,8 +32,11 @@ Após importar os dados vamos plotar a distribuição de nossas variáveis. Assi
 
 <img src="images/img_001.png" width=300>
 
-Abaixo podemos ver o estado inicial do arquivo, ele continha diversos níveis de dicionários com especificações dos dados de cada coluna, primeiramente precisávamos desempacotar estas informações
-
+Há um desbalanceamento das variáveis assim seria possível utilizar metodologias como, UNDERSAMPLING,  OVERRSAMPLING ou SMOTE, mas optamos por manter a base adotar medidas para minimizar o desbalanceamento apenas em projetos futuros. Este projeto é apenas para criação de um modelo inicial. Mas devemos ficar atentos pois existe esta possibilidade de melhoria de modelo.
+ 
+Após definir uma função simples para plotar os dados para visualizarmos o comportamento de algumas variáveis, começamos a plotar nossas variáveis.
+Nesta variável abaixo o gráfico é muito similar assim ela parece ter pouca correlação, o que seria surpreendente até certo ponto, pois o cliente sênior tende a ter um padrão de consumo diferente, mas isso não influência sua permanência ou não na empresa.
+ 
 <img src="images/comparativo maior 65.png">
 
 Usando o método nomalize, podemos desempacotar as informações e exportá-las em colunas individuais, como podemos ver na imagem abaixo, o mesmo método foi aplicado em todas as colunas que possuíam esta mesma característica.
