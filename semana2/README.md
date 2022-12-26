@@ -3,8 +3,8 @@
 
 # Desafio Alura Data Science Semana 2 Análise Exploratória dos Dados
 <div align="left">
-Limpeza de uma base de dados e exportação para arquivo .csv para realizar análises e plotagens na semana seguinte.
-
+Plotagem de gráficos para melhor entendimento da correlação entre as demais variáveis e nossa variável alvo.
+ 
 ## Tecnologia
 
 O software  usado neste projeto foi:
@@ -27,54 +27,43 @@ O software  usado neste projeto foi:
 
 Será descrito abaixo através de textos e imagens.
 
+Após importar os dados vamos plotar a distribuição de nossas variáveis. Assim, vamos plotar a distribuição da variável alvo.
 
-Recebemos para este desfio uma base de dados em json, começamos importando a biblioteca pandas que vamos usar nesta limpeza
-e na sequência importamos a base de dados que vamos usar
 
-<img src="images/distibuicao.png">
+<img src="images/img_001.png" width=300>
 
 Abaixo podemos ver o estado inicial do arquivo, ele continha diversos níveis de dicionários com especificações dos dados de cada coluna, primeiramente precisávamos desempacotar estas informações
 
-<img src="images/002.png">
+<img src="images/comparativo maior 65.png">
 
 Usando o método nomalize, podemos desempacotar as informações e exportá-las em colunas individuais, como podemos ver na imagem abaixo, o mesmo método foi aplicado em todas as colunas que possuíam esta mesma característica.
 
-<img src="images/003.png">
+<img src="images/comparativo meses contrato.png">
 Depois cada parte desempacotada foi adicionada a base principal e as colunas mãe forma excluídas, ficando com um aspecto melhor como podemos observar na imagem abaixo.
 
-<img src="images/004.png">
+<img src="images/comparativo gasto mensal.png">
 Começamos a etapa de procurar por inconsistências de dados, não localizamos valores vazios, tipo NaN ou Null.
 depois verificamos que tínhamos ao invés de valores vazios ' ' simplesmente um espaço como valor. como podemos ver na imagem abaixo.
 
-<img src="images/005.png">
+<img src="images/heat_map.png">
  
  Continuamos verificando valores e na coluna Senior, encontramos 0 e 1 em vez de yes e no então corrigimos padronizando a base.
 
-<img src="images/006.png">
+<img src="images/churn_yes.png">
 
  Fizemos algumas checagens para verificar nas colunas com valores numéricos valores discrepantes ou negativos.
  mas não encontramos valores deste tipo.
 
-<img src="images/007.png">
+<img src="images/churn_no.png">
 
 Checamos qual o percentual do valor nulo, como o cliente informou que essa seria a variável alvo optamos por excluir as linhas pois elas representavam apenas perto de 3%
 
-<img src="images/008.png">
+<img src="images/comparativo tipo contrato.png">
 
 Verificamos que uma das variáveis numéricas estava com os valores armazenados como texto e convertemos o tipo para sanar esta inconsistência
 
-<img src="images/009.png">
+<img src="comparativo internet.png">
 
-Realizamos a tradução dos rótulos das colunas
-
-<img src="images/010.png">
-
-Depois criamos a variável de gasto diário
-
-<img src="images/011.png">
-
-Reordenamos as colunas para que ficasse com a gradação gasto diário, mensal, total,
-depois exportamos a base para ser usada futuramente.
 
 
 
