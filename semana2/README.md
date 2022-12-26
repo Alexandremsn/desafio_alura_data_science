@@ -39,35 +39,43 @@ Nesta variável abaixo o gráfico é muito similar assim ela parece ter pouca co
  
 <img src="images/comparativo maior 65.png">
 
-Usando o método nomalize, podemos desempacotar as informações e exportá-las em colunas individuais, como podemos ver na imagem abaixo, o mesmo método foi aplicado em todas as colunas que possuíam esta mesma característica.
+Esta variável possui algum grau de correlação, e o mais surpreendente mostra uma tendência de que a empresa está perdendo clientes novos, vemos um pico claro de abandono da empresa na maior parte pelo grupo com 0 a 5 meses de contrato, mas parece ser mais fácil reter clientes depois de um certo período de contrato.
 
 <img src="images/comparativo meses contrato.png">
-Depois cada parte desempacotada foi adicionada a base principal e as colunas mãe forma excluídas, ficando com um aspecto melhor como podemos observar na imagem abaixo.
 
+Vimos para esta variável uma proporção diferente dos gráficos o que pode indicar algum grau de correlação, os grupos mais fiéis são os que gastam menos pois temos um pico de abandono da empresa por cliente na faixa de 80 a 100 reais de gasto mensal.
+ 
 <img src="images/comparativo gasto mensal.png">
-Começamos a etapa de procurar por inconsistências de dados, não localizamos valores vazios, tipo NaN ou Null.
-depois verificamos que tínhamos ao invés de valores vazios ' ' simplesmente um espaço como valor. como podemos ver na imagem abaixo.
+
+Vamos gerar um gráfico de mapa de calor para verificar qual grau de correlação entre todas as variáveis.
 
 <img src="images/heat_map.png">
  
- Continuamos verificando valores e na coluna Senior, encontramos 0 e 1 em vez de yes e no então corrigimos padronizando a base.
+Agora vamos relacionar quais variáveis possuem mais correlação: gênero não possui nenhuma correlação com o abandono de clientes. Dependentes, parceiro, sênior, ter ou não telefone não parecem influenciar em nada.
+Mas ter internet, e seus serviços associados são fatores que apresentam entre 28 a 34 por centro de correlação. A variável com mais correlação é o tipo de contrato.
+
+ 
+ Vamos agora analisar os perfis de clientes com churn sim e não de forma agrupada para verificar como estes perfis são diferentes.
+ 
 
 <img src="images/churn_yes.png">
 
- Fizemos algumas checagens para verificar nas colunas com valores numéricos valores discrepantes ou negativos.
- mas não encontramos valores deste tipo.
-
+Comparando variável a variável temos alguns pontos que chamam a atenção. Vimos que a variável serviço de telefone e múltiplas linhas parece ser muito similar nos dois gráficos. Os serviços ligados a internet parecem ser onde temos mais diferença os clientes que contratam suporte técnico são o dobro praticamente comparando churn sim e não sendo em maior número para a os clientes fiéis. Os serviços de streaming de um modo geral são ligeiramente maiores entre os clientes que abandonam a empresa. Idosos tendem a abandonar a empresa. Pessoas com parceiro e filhos tendem a permanecer.
+ 
 <img src="images/churn_no.png">
 
-Checamos qual o percentual do valor nulo, como o cliente informou que essa seria a variável alvo optamos por excluir as linhas pois elas representavam apenas perto de 3%
+Vamos gerar o gráfico comparativo para a nova variável e para a variável tipo de contrato que possui maior correlação. Ao visualizar o gráfico podemos ver a influência da variável alvo no variável plotada.
+
 
 <img src="images/comparativo tipo contrato.png">
 
-Verificamos que uma das variáveis numéricas estava com os valores armazenados como texto e convertemos o tipo para sanar esta inconsistência
-
-<img src="comparativo internet.png">
 
 
+<img src="images/comparativo internet.png">
+
+Visualizando os dados podemos inferir:
+
+Que um dos pontos que mais contribui para a diminuição do churn é o tipo de contrato contratos com fidelidade geram um abandono menor que contratos sem fidelidade, pessoas com gasto mensal baixo tendem a permanecer na empresa. Porém um fator que merece atenção é no caso de clientes sem internet os clientes sem internet parecem mais fiéis comparando os gráficos, mas o fato de quase toda a gama de serviços oferecidos ser dependente de internet, levanta a preocupação que este cliente fiel possa desaparecer com o tempo. Os serviços de suporte e backup e correlatos estão mais presentes nos clientes que permanecem na empresa, assim estes serviços parecem estar sendo bem recebidos pelos usuários e agregando valor a percepção do cliente.
 
 
 ## Recursos Usados
