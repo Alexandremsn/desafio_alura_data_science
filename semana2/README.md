@@ -14,12 +14,14 @@ O software  usado neste projeto foi:
 ## Serviços Usados
 
 * Github
-
+* Google Colab
 
 ## Bibliotecas Python
 
 * Pandas
-
+* Seaborn
+* Matplotlib
+* Dython
 
 ## Como foi feito
 
@@ -29,7 +31,7 @@ Será descrito abaixo através de textos e imagens.
 Recebemos para este desfio uma base de dados em json, começamos importando a biblioteca pandas que vamos usar nesta limpeza
 e na sequência importamos a base de dados que vamos usar
 
-<img src="images/001.png">
+<img src="images/distibuicao.png">
 
 Abaixo podemos ver o estado inicial do arquivo, ele continha diversos níveis de dicionários com especificações dos dados de cada coluna, primeiramente precisávamos desempacotar estas informações
 
