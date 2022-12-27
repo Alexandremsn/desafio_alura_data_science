@@ -7,12 +7,20 @@ o trabalho foi concluído mas a documentação ainda está em desenvolvimento, a
 <div align="center">
 <img src="semana1/images/clipart571406.png" width=100>
 
-# Desafio Alura Data Science Semana 1 Limpeza de dados
 <div align="left">
+  
+# Desafio Alura Data Science Semana 1 Limpeza de dados
+
 Limpeza de uma base de dados e exportação para arquivo .csv para realizar análises e plotagens na semana seguinte.
 
-# Desafio Alura Data Science Semana 2 Análise exploratória dos dados
 
+<div align="center">
+<img src="semana2/images/pngwing.com.png" width=200>
+
+# Desafio Alura Data Science Semana 2 Análise Exploratória dos Dados
+<div align="left">
+Plotagem de gráficos para melhor entendimento da correlação entre as demais variáveis e nossa variável alvo.
+ 
 readme em desenvolvimento
 
 # Desafio Alura Data Science Semanas 3 e 4 Construindo modelo preditivo
