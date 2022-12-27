@@ -4,7 +4,7 @@
 # Desafio Alura Data Science Semana 3 criação de um modelo preditivo
 <div align="left">
  
-Criação de um modelo preditivo, teste aplicação de métricas e ajuste de hiperparâmetros.
+Criação de um modelo preditivo, teste, aplicação de métricas e ajuste de hiperparâmetros.
 
 ## Tecnologia
 
@@ -91,8 +91,14 @@ depois exportamos a base para ser usada futuramente.
 ## Recursos Usados
 
   - Importação de Database
-  - Limpeza de dados
-  - Criação de arquivo .csv
+  - Padronização de variáveis
+  - Criação de variáveis Dummies
+  - Criação de um modelo de KNN
+  - Criação de um modelo de Random Forest
+  - Criação de um modelo de boost
+  - Implementação de uma grade de parâmetros para teste dos modelos
+  - Criação de uma variável de erro
+  - Ajuste de Hiperprâmetros
   
 
 ## Links
