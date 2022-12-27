@@ -20,10 +20,13 @@ Limpeza de uma base de dados e exportação para arquivo .csv para realizar aná
 # Desafio Alura Data Science Semana 2 Análise Exploratória dos Dados
 <div align="left">
 Plotagem de gráficos para melhor entendimento da correlação entre as demais variáveis e nossa variável alvo.
- 
-readme em desenvolvimento
 
+<div align="center">
+<img src="semana2/images/pngwing.com.png" width=200>
+
+<div align="left">
 # Desafio Alura Data Science Semanas 3 e 4 Construindo modelo preditivo
 
+Criação de um modelo preditivo, teste, aplicação de métricas e ajuste de hiperparâmetros.
 
-readme em desenvolvimento
+
