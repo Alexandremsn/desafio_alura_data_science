@@ -81,8 +81,8 @@ Que um dos pontos que mais contribui para a diminuição do churn é o tipo de c
 ## Recursos Usados
 
   - Importação de Database
-  - Limpeza de dados
-  - Criação de arquivo .csv
+  - Criação de função de plotagem e salvamento de gráficos em imagens
+  - Plotagem e análise de gráfico
   
 
 ## Links
