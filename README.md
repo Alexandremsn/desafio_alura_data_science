@@ -22,9 +22,10 @@ Limpeza de uma base de dados e exportação para arquivo .csv para realizar aná
 Plotagem de gráficos para melhor entendimento da correlação entre as demais variáveis e nossa variável alvo.
 
 <div align="center">
-<img src="semana2/images/pngwing.com.png" width=200>
+<img src="semana3e4/images/pngegg.png" width=300>
 
 <div align="left">
+
 # Desafio Alura Data Science Semanas 3 e 4 Construindo modelo preditivo
 
 Criação de um modelo preditivo, teste, aplicação de métricas e ajuste de hiperparâmetros.
