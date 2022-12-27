@@ -1,9 +1,10 @@
 <div align="center">
-<img src="images/clipart571406.png" width=100>
+<img src="images/pngegg.png" width=300>
 
-# Desafio Alura Data Science Semana 1 Limpeza de dados
+# Desafio Alura Data Science Semana 3 criação de um modelo preditivo
 <div align="left">
-Limpeza de uma base de dados e exportação para arquivo .csv para realizar análises e plotagens na semana seguinte.
+ 
+Criação de um modelo preditivo, teste aplicação de métricas e ajuste de hiperparâmetros.
 
 ## Tecnologia
 
@@ -14,11 +15,19 @@ O software  usado neste projeto foi:
 ## Serviços Usados
 
 * Github
-
+* Google Colab
+ 
 
 ## Bibliotecas Python
 
 * Pandas
+* Numpy
+* sklearn.model_selection
+* sklearn.neighbors
+* catboost
+* sklearn.ensemble
+* sklearn.metrics
+ 
 
 
 ## Como foi feito
@@ -74,6 +83,9 @@ Depois criamos a variável de gasto diário
 Reordenamos as colunas para que ficasse com a gradação gasto diário, mensal, total,
 depois exportamos a base para ser usada futuramente.
 
+<img src="images/012.png">
+ <img src="images/013.png">
+ <img src="images/014.png">
 
 
 ## Recursos Usados
